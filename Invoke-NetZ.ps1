@@ -87,3 +87,5 @@ Function Invoke-NetZ {
         Start-Process -FilePath "$NetZExe" -ArgumentsList $arguments -NoNewWindow -Wait
 
     }
+
+

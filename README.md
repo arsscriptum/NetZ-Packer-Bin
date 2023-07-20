@@ -1,10 +1,4 @@
 # .NETZ - .NET Executables Compressor
- __________________________________________ 
-|                                          |
-| .NETZ - .NET Executables Compressor      |
-| Copyright (C) 2004-2023 Vasian Cepa      |
-| [v0.4.8]  http://madebits.com            |
-|__________________________________________|
 
 ### Usage: netz [-s] [-so] [exe file] [[-d] dll file]* [-a assemblyAttributes file]
             [-o outPutFolder]
@@ -92,4 +86,11 @@
 	     The DLL files can be specified alone or with wildcards.     
 	-d   If use before a DLL file, this option tells .NETZ that      
 	     the next DLL will be loaded dynamically by the application. 
+```
+
+### Invoke-NetZ
+
+```
+    Invoke-NetZ -ExeFile "exe" -DllFiles @('dll1','dll2') -IconFile "ico" -DllResource	
+
 ```
